@@ -1,4 +1,72 @@
+* {
+  box-sizing: border-box;
+
+}
+
 html {
   background: #f2f1f4;
   color: #19171c;
+}
+
+h1 {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 60px;
+  text-shadow: 2px 2px #737373;
+}
+
+h4 {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 25px;
+}
+
+p {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 20px;
+}
+
+.articles {
+  background: lightpink;
+  color: white;
+  padding: 50px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.container .box {
+  float: left;
+  position: relative;
+  width: 100%;
+  background: #lightpink;
+  padding: 5px;
+
+}
+
+img {
+  width: 100%;
+}
+
+.text-block {
+    background-color: papayawhip;
+    color: black;
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    width: 100%;
+    opacity: 0.4;
+
+}
+
+@media (max-width: 900px) and (min-width: 600px) {
+  .container .box {
+    width: 50%;
+  }
+}
+
+
+@media (min-width: 900px) {
+    .container .box {
+      width: 33.33%;
+  }
 }
